@@ -19,6 +19,9 @@ function handleCheck(e) {
         inBetween = !inBetween;
         console.log('Starting to check inbetween the checkboxes');
       }
+      if (inBetween) {
+        checkbox.checked = true;
+      }
     });
   }
 
